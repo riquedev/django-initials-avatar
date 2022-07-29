@@ -14,7 +14,6 @@ django-initials-avatar
 </dl>
 
 ## Installing
----
 First add the application to your Python path. The easiest way is to use pip:
 
 ```shell
@@ -147,6 +146,3 @@ Available parameters:
 - capitalize
 - lowercase
 - bold
-
-Baseado em: https://github.com/eddiejibson/avatars
-

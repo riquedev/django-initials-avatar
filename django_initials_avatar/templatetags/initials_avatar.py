@@ -1,19 +1,11 @@
 from django import template
-from django.template.defaultfilters import stringfilter
-import gettext
+from django.urls import reverse
+from urllib.parse import urlencode
 
 register = template.Library()
 
 
-@register.filter
-@stringfilter
-def language_code_to_iso2(value: str):
-    lang = value.split("-")
-    if len(lang) > 1:
-        return lang[1]
-    else:
-        expand = gettext._expand_lang(value)
-        if len(expand) > 1:
-            return str(expand[1].split("_")[-1]).lower()
-
-    return ""
+@register.simple_tag
+def render_initials_avatar(name, **kwargs):
+    kwargs['name'] = name
+    return f"%s?{urlencode(kwargs)}" % reverse('initials-avatar-svg')
