@@ -12,7 +12,7 @@ django-initials-avatar
   </tr> 
     <tr>
         <th>Django Packages</th>
-        <td><a href="https://djangopackages.org/packages/p/djangoinitialsavatar/">packages/djangoinitialsavatar</a></td>
+        <td><a href="https://djangopackages.org/packages/p/django-initials-avatar/">packages/djangoinitialsavatar</a></td>
     </tr>
 </table>
 </dl>
