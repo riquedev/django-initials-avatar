@@ -154,3 +154,9 @@ Available parameters:
 - capitalize
 - lowercase
 - bold
+
+
+### Desired next step
+
+Make it possible to render the png instead of an svg, perhaps directly converting the svg to png.
+However so far the libraries need specific dll's and the intention would be to avoid this type of need.
