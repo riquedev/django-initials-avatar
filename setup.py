@@ -12,10 +12,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
-    url="https://github.com/riquedev/DjangoLetterAvatar",
+    url="https://github.com/riquedev/django-initials-avatar",
     project_urls={
-        "Bug Tracker": "https://github.com/riquedev/DjangoLetterAvatar/issues",
-        "Repository": "https://github.com/riquedev/DjangoLetterAvatar",
+        "Bug Tracker": "https://github.com/riquedev/django-initials-avatar/issues",
+        "Repository": "https://github.com/riquedev/django-initials-avatar",
     },
     install_requires=[
         'Django>=2.2.0',
