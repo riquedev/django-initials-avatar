@@ -10,6 +10,10 @@ django-initials-avatar
     <th>Original Repository:</th>
     <td><a href="https://github.com/eddiejibson/avatars">eddiejibson/avatars</a></td>
   </tr> 
+    <tr>
+        <th>Django Packages</th>
+        <td><a href="https://djangopackages.org/packages/p/djangoletteravatar/">packages/djangoletteravatar</a></td>
+    </tr>
 </table>
 </dl>
 
