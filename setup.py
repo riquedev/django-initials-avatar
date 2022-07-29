@@ -11,6 +11,7 @@ setuptools.setup(
     description="A ridiculously simple avatar generator with initials from names.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="Apache License 2.0",
     url="https://github.com/riquedev/DjangoLetterAvatar",
     project_urls={
         "Bug Tracker": "https://github.com/riquedev/DjangoLetterAvatar/issues",
@@ -20,7 +21,8 @@ setuptools.setup(
         'Django>=2.2.0',
     ],
     classifiers=[
-        "App :: Django",
+        "Framework :: Django",
+        "Development Status :: 4 - Beta"
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3"
     ],
