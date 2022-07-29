@@ -4,7 +4,7 @@ class SVGAvatar:
     def name_to_letters(cls, name: str, length: int) -> str:
         name_parts = list(map(lambda part: str(part)[0], name.split(' ')))
 
-        if length > 1:
+        if length > 1 and len(name_parts) > 1:
             new_length = length - 2
 
             if new_length > 0:
