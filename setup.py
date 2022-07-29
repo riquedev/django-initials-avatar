@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="django_initials_avatar",
-    version="0.0.1",
+    version="0.0.2",
     author="Henrique da Silva Santos",
     author_email="henrique.santos@4u360.com.br",
     description="A ridiculously simple avatar generator with initials from names.",
