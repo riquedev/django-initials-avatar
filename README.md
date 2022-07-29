@@ -18,6 +18,7 @@ django-initials-avatar
 </dl>
 
 [![Upload Python Package](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-publish.yml/badge.svg)](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-publish.yml)
+[![Python package](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-package.yml/badge.svg)](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-package.yml)
 
 ## Installing
 First add the application to your Python path. The easiest way is to use pip:
