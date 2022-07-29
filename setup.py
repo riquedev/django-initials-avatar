@@ -22,7 +22,7 @@ setuptools.setup(
     ],
     classifiers=[
         "Framework :: Django",
-        "Development Status :: 4 - Beta"
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3"
     ],
