@@ -7,12 +7,12 @@ django-initials-avatar
     <td>A ridiculously simple avatar generator with initials from names.</td>
   </tr>
   <tr>
-    <th>Original Repository:</th>
-    <td><a target="_blank" href="https://github.com/eddiejibson/avatars">eddiejibson/avatars</a></td>
+    <th>Original Repository</th>
+    <td><a href="https://github.com/eddiejibson/avatars">eddiejibson/avatars</a></td>
   </tr> 
     <tr>
         <th>Django Packages</th>
-        <td><a target="_blank" href="https://djangopackages.org/packages/p/djangoletteravatar/">packages/djangoletteravatar</a></td>
+        <td><a href="https://djangopackages.org/packages/p/djangoletteravatar/">packages/djangoletteravatar</a></td>
     </tr>
 </table>
 </dl>
