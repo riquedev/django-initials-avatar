@@ -36,7 +36,7 @@ class SVGAvatar:
                '@font-face {font-family: "montserratbold";src: url("https://cdn.oxro.io/fonts/montserrat-bold-webfont.woff2") format("woff2"),' \
                'url("https://cdn.oxro.io/fonts/montserrat-bold-webfont.woff") format("woff");' \
                'font-weight: normal;font-style: normal;}</style></defs>' \
-               f'<rect x="0" y="0" width="500" height="500" rx="{50 if avatar_rounded else 0}" ' \
+               f'<rect x="0" y="0" width="500" height="500" rx="{50 if avatar_rounded else 0}" ry="{50 if avatar_rounded else 0}" ' \
                f'style="fill:{background}"/>' \
                f'<text x="50%" y="50%" dy=".1em" fill="{color}" ' \
                f'text-anchor="middle" dominant-baseline="middle" ' \
