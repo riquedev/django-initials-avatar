@@ -11,10 +11,10 @@ setuptools.setup(
     description="A ridiculously simple avatar generator with initials from names.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/KoterIA/FacebookCloudAPI",
+    url="https://github.com/riquedev/DjangoLetterAvatar",
     project_urls={
-        "Bug Tracker": "https://github.com/KoterIA/FacebookCloudAPI/issues",
-        "Repository": "https://github.com/KoterIA/FacebookCloudAPI",
+        "Bug Tracker": "https://github.com/riquedev/DjangoLetterAvatar/issues",
+        "Repository": "https://github.com/riquedev/DjangoLetterAvatar",
     },
     install_requires=[
         'Django>=2.2.0',
