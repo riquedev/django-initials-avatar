@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
     url="https://github.com/riquedev/django-initials-avatar",
+    keywords="letter, initials, avatar, django",
     project_urls={
         "Bug Tracker": "https://github.com/riquedev/django-initials-avatar/issues",
         "Repository": "https://github.com/riquedev/django-initials-avatar",
