@@ -21,6 +21,8 @@ django-initials-avatar
 [![Python package](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-package.yml/badge.svg)](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-package.yml)
 [![CodeQL](https://github.com/riquedev/django-initials-avatar/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/riquedev/django-initials-avatar/actions/workflows/codeql-analysis.yml)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/riquedevbr)
+
 ## Installing
 First add the application to your Python path. The easiest way is to use pip:
 
