@@ -12,14 +12,14 @@ django-initials-avatar
   </tr> 
     <tr>
         <th>Django Packages</th>
-        <td><a href="https://djangopackages.org/packages/p/djangoinitialsavatar/">packages/djangoletteravatar</a></td>
+        <td><a href="https://djangopackages.org/packages/p/djangoinitialsavatar/">packages/djangoinitialsavatar</a></td>
     </tr>
 </table>
 </dl>
 
-[![Upload Python Package](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-publish.yml/badge.svg)](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-publish.yml)
-[![Python package](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-package.yml/badge.svg)](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/python-package.yml)
-[![CodeQL](https://github.com/riquedev/django-initials-avatar/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/riquedev/DjangoLetterAvatar/actions/workflows/codeql-analysis.yml)
+[![Upload Python Package](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-publish.yml/badge.svg)](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-publish.yml)
+[![Python package](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-package.yml/badge.svg)](https://github.com/riquedev/django-initials-avatar/actions/workflows/python-package.yml)
+[![CodeQL](https://github.com/riquedev/django-initials-avatar/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/riquedev/django-initials-avatar/actions/workflows/codeql-analysis.yml)
 
 ## Installing
 First add the application to your Python path. The easiest way is to use pip:
