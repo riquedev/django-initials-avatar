@@ -19,7 +19,7 @@ setuptools.setup(
         "Repository": "https://github.com/riquedev/django-initials-avatar",
     },
     install_requires=[
-        'Django>=2.2.0',
+        'Django>=3.2.14',
     ],
     classifiers=[
         "Framework :: Django",
