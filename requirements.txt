@@ -32,7 +32,7 @@ rich==12.5.1
 six==1.16.0
 sqlparse==0.4.2
 tinycss2==1.1.1
-tomli==2.0.1
+tomli>=1.2.3
 twine==4.0.1
 tzdata==2022.1
 urllib3==1.26.11
