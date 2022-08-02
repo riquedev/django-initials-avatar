@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="django_initials_avatar",
-    version="0.0.4",
+    version="0.0.5",
     author="Henrique da Silva Santos",
     author_email="henrique.santos@4u360.com.br",
     description="A ridiculously simple avatar generator with initials from names.",
@@ -27,7 +27,9 @@ setuptools.setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3"
     ],
-    packages=setuptools.find_packages(exclude=("tests",)),
+    packages=setuptools.find_packages(
+        exclude=["tests", "DjangoLetterAvatar.*"]
+    ),
     include_package_data=True,
-    python_requires=">=3.8"
+    python_requires=">=3.5"
 )
