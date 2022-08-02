@@ -9,7 +9,7 @@ colorama==0.4.5
 commonmark==0.9.1
 cssselect2==0.6.0
 defusedxml==0.7.1
-Django==4.0.6
+Django>=3.2.14
 docutils==0.19
 idna==3.3
 importlib-metadata==4.12.0
