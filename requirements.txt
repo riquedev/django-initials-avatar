@@ -7,7 +7,7 @@ cffi==1.15.1
 charset-normalizer==2.1.0
 colorama==0.4.5
 commonmark==0.9.1
-cssselect2==0.6.0
+cssselect2>=0.4.1
 defusedxml==0.7.1
 Django>=3.2.14
 docutils==0.19
