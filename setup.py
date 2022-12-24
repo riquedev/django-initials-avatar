@@ -28,7 +28,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3"
     ],
     packages=setuptools.find_packages(
-        exclude=["tests", "DjangoLetterAvatar.*"]
+        exclude=["tests", "DjangoLetterAvatar"]
     ),
     include_package_data=True,
     python_requires=">=3.6"
