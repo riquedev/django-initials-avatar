@@ -8,4 +8,6 @@ register = template.Library()
 @register.simple_tag
 def render_initials_avatar(name, **kwargs):
     kwargs['name'] = name
-    return f"%s?{urlencode(kwargs)}" % reverse('initials-avatar-svg')
+    # return f"%s?{urlencode(kwargs)}" % reverse('initials-avatar-svg')
+    # ( https://github.com/riquedev/django-initials-avatar/issues/1#issuecomment-1352677054 )
+    return f"{reverse('initials-avatar-svg')}?{urlencode(kwargs)}"
