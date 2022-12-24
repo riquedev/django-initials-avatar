@@ -147,6 +147,5 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 /templates/
-/manage.py
 .pypirc
 pypi-build.sh
