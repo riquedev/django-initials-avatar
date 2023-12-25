@@ -2,7 +2,13 @@ class SVGAvatar:
 
     @classmethod
     def name_to_letters(cls, name: str, length: int) -> str:
-        name_parts = list(map(lambda part: str(part)[0], name.split(' ')))
+        name_valid_parts = filter(
+            lambda part: len(str(part).strip()) > 0,
+            name.split(' ')
+        )
+        name_parts = list(
+            map(lambda part: str(part)[0], name_valid_parts)
+        )
 
         if length > 1 and len(name_parts) > 1:
             new_length = length - 2
@@ -23,7 +29,9 @@ class SVGAvatar:
     def render(cls, name: str, background: str, color: str, text_length: int, avatar_width: int, avatar_height: int,
                font_size: int,
                avatar_rounded: bool, text_capitalize: bool, text_lowercase: bool, text_bold: bool) -> str:
+
         letter_name = cls.name_to_letters(name, length=text_length)
+
         if text_capitalize:
             letter_name = letter_name.upper()
         elif text_lowercase:
